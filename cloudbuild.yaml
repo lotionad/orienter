@@ -1,5 +1,5 @@
 steps:
-  - name: 'python:3.8'
+  - name: 'python:3.6'
     entrypoint: "bash"
     args:
       - "-c"
@@ -9,4 +9,4 @@ steps:
           ./test.sh
 timeout: 86200s
 options:
-  machineType: E2_HIGHCPU_32
+  machineType: N1_HIGHCPU_32
